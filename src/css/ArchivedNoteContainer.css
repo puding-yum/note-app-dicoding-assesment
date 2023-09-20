@@ -1,0 +1,42 @@
+.archived-note-container {
+  margin: 0.5rem;
+  background-color: rgb(226, 45, 75);
+  color: pink;
+  height: -webkit-fill-available;
+}
+
+.archived-notes {
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.archived-note-card {
+  margin-bottom: 0.1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.archived-note-title {
+  padding: 0.5rem;
+  border: 1px dashed black;
+  margin-right: 0.3rem;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.archived-note-title h3 {
+  overflow-wrap: break-word;
+}
+
+.restore-button {
+  background-color: black;
+  padding: 0.5rem;
+  color: pink;
+  border: 1px solid yellow;
+  font-family: monospace;
+  flex: 0 0 0;
+}
+
+.restore-button:hover {
+  background-color: rgb(51, 42, 42);
+}

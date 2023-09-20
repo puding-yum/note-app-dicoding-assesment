@@ -1,0 +1,55 @@
+.input-note-container {
+  margin: 0.5rem;
+  background-color: rgb(226, 45, 75);
+  color: pink;
+}
+
+.form-input {
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-title {
+  width: -webkit-fill-available;
+  font-family: monospace;
+  background-color: black;
+  border: 1px solid yellow;
+  margin-bottom: 0.1rem;
+  color: pink;
+  height: 2rem;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.input-body {
+  margin-bottom: 0.3rem;
+  width: -webkit-fill-available;
+  background-color: black;
+  border: 1px solid yellow;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: pink;
+}
+
+.input-title-count {
+  text-align: right;
+}
+
+.input-title:focus,
+.input-body:focus {
+  outline: none;
+  border: 2px solid white;
+}
+
+.input-button {
+  width: -webkit-fill-available;
+  font-family: monospace;
+  border: 1px solid yellow;
+  background-color: black;
+  height: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.input-button:hover {
+  background-color: rgb(39, 37, 37);
+}
